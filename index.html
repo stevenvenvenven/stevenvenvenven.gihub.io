@@ -16,14 +16,59 @@
         <a class="button button-orange" href="#contact">SEND MESSAGE</a>
       </div>
     </header>
+
     <section class="about" id="about">
-
+      <h2 class="heading">PROFILE</h2>
+      <div class="profile-thumbnails">
+          <img class="profile-thumbnail" src="thumbnail/my_thumbnail_2.jpg">
+      </div>
+      <p class="about-history">
+        2018年3月　中央大学法学部政治学科卒業<br>
+        2018年4月　富士通株式会社に入社し、営業配属<br>
+        2019年8月　富士通株式会社を退職
+      </p>
+      <p class="about-text">
+        父親がジオラマを作っている影響で、幼い頃からモノを作ることに憧れ
+        プラモデル制作に大学までハマっていました。
+        就職活動でIT業界に興味を持ったことと、モノづくりも好きということでプログラミングを始めました。
+        現在はRailsで友人たちとアプリケーションを作成しています。
+      </p>
     </section>
-    <section class="works">
 
+    <section class="works">
+      <h2 class="heading">MY WORKS</h2>
+      <div class="works-wrapper clearfix">
+        <div class="work-box">
+          <img class="work-image" src="images/mercari_copy.png" alt="制作事例">
+          <div class="work-description">
+            MercariCopy<br>
+            <a href="#" class="button button-ghost">SEE MORE</a>
+          </div>
+        </div>
+
+        <div class="work-box">
+          <img class="work-image" src="images/mercari_copy.png", alt="制作事例">
+          <div class="work-description">
+            Otaac<br>
+            <a href="#" class="button button-ghost">SEE MORE</a>
+          </div>
+        </div>
+        
+        <div class="work-box">
+            <img class="work-image" src="images/mercari_copy.png", alt="制作事例">
+            <div class="work-description">
+              Noname<br>
+              <a href="#" class="button button-ghost">SEE MORE</a>
+            </div>
+        </div>
+      </div>
     </section>
     <section class="contact" id="contact">
-
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="NAME">
+        <textarea name="message" placeholder="MESSAGE"></textarea>
+        <input type="submit" value="SEND">
+      </form>
     </section>
   </body>
 </html>
