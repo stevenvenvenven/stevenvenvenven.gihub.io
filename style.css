@@ -109,11 +109,20 @@ body {
 .work-box {
     background-color: rgba(100, 100, 100, 0.3);
     border: 1px solid #333;
+    width: 400px;
 }
 
 .work-image {
     display: block;
+    height: 319px;
     width: 100%;
+}
+
+.image-vertical {
+    width: 50%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .work-description {
